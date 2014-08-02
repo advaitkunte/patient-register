@@ -1,0 +1,101 @@
+/* 
+	author: istockphp.com
+*/
+body { 
+	font-family: sans-serif;
+	font-size:13px;
+	background:#464646;
+	color:#444444;
+}
+p { 
+	padding:2px 
+}
+#wrap { 
+	width:600px; 
+	padding:20px; 
+	margin:20px auto;
+	background:#fff;
+	border:1px solid #cc;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	background-color: #DDDDDD;
+}
+div#wrap2 {
+    border: 1px solid #CCCCCC;
+    margin-bottom: 10px;
+    padding:15px;
+    background-color: #FFFFFF;
+}
+h3.register {
+	font-family: Times;
+    display: block;
+    margin-bottom: 5px;
+}
+form#register_form label { 
+	display:inline-block; /* with block na */
+	width:150px;
+	text-align: right;
+	font-weight:bold;
+	margin-right: 5px;
+}
+form#register_form label:after { 
+	content:":"
+}
+form#register_form input[type='text'] { 
+	display:inline-block; /* with block na */
+	width:200px;
+	border:1px solid #ccc;
+	margin:0;
+	padding:5px;
+}
+form#register_form input[type='checkbox'] { 
+	display:inline-block; /* with block na */
+	border:1px solid #ccc;
+	margin:0;
+	padding:5px;
+}
+form#register_form select[name='year'],select[name='month'],select[name='day'] {
+    border: 1px solid #CCCCCC;
+    display: inline-block;
+    margin: 0;
+    padding: 3px 0;
+    width: 68px;
+}
+form#register_form select[name='commu'] {
+    border: 1px solid #CCCCCC;
+    display: inline-block;
+    margin: 0;
+    padding: 3px 0;
+    width: 120px;
+}
+form#register_form input[name='submit'] { 
+	border:1px solid #3399FF;
+	background:#3399FF;
+	border-radius: 5px;
+	margin:10px;
+	color:#FFF;
+	padding:5px;
+	font-weight:bold
+}
+form#register_form input[name='submit'] { 
+	cursor:pointer;
+}
+p.validate_msg {
+    border: 1px solid #FF0000;
+    font-weight: bold;
+    padding: 10px;
+	display:none;
+	margin-bottom:25px;
+	background-color: #FFFFFF;
+}
+span.validate  {
+	color:#F00;
+	padding-left:8px;
+	font-style:italic;
+}
+span.required:after {
+    color: #e32;
+    content: ' *';
+    font-size: 20px;
+    display:inline;
+}
